@@ -1,0 +1,406 @@
+/*universal style*/
+html {
+	font-size: 16px;
+	font-family: "Verdana", Sans-serif;
+	color: black;
+}
+
+body{
+	margin: 0;
+}
+
+h2{
+	font-size: 25px;
+	text-align: center;
+}
+
+h4{
+	font-family: Convergence;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: normal;
+}
+
+h6{
+	font-family: Convergence;
+	font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+/*first-part*/
+.head{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:64px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 32px;
+	margin-left: 24px;
+	font-size: 1.2rem;
+}
+
+nav{
+  justify-content: space-between;
+	margin-right:24px;
+}
+
+nav a{
+  margin-left: 16px;
+}
+
+.icons{
+	display: none;
+}
+
+
+.banner{
+  display:flex;
+  background-color: Gainsboro;
+  width: 100%;
+}
+
+.banner img{
+  padding:32px 24px;
+}
+
+.bannertext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding-left: 24px;
+}
+
+button{
+  padding:8px;
+  color:white;
+  background-color: black;
+
+}
+
+/*second-part*/
+
+.secondpart{
+  display: flex;
+  width: 100%;
+}
+
+.left1 img{
+  padding:0px;
+  width: 100%
+}
+
+.left1{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.left1 h1{
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.left1 h5{
+  margin-bottom: 32px;
+}
+
+.orientation{
+  display: flex;
+}
+
+.campus{
+  display: flex;
+}
+
+.guest{
+	display: flex;
+}
+
+.right1{
+  width: 40%;
+  padding-left: 24px;
+}
+
+.img1{
+	width: 35%;
+}
+
+.orientation img{
+  margin-top: 16px;
+  height: auto;
+  width: 100%;
+}
+
+.campus img{
+	margin-top: 16px;
+  height: auto;
+  width: 100%;
+}
+
+.guest img{
+	margin-top: 16px;
+  height: auto;
+  width: 100%;
+}
+
+.text{
+	width: 65%;
+}
+
+/*third-part*/
+
+.thirdpart{
+  background-color: Gainsboro;
+}
+
+.img2{
+	height: auto;
+}
+
+.row1{
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+	width: 100%;
+}
+
+.software-engineering{
+	width: 31%;
+}
+
+.software-engineering img{
+	width: 100%;
+}
+
+
+
+.computer-art{
+  margin-left: 32px;
+	width: 31%;
+}
+
+.computer-art img{
+	width: 100%;
+}
+
+.Design{
+  margin-left: 32px;
+	width: 31%;
+}
+.Design img{
+	width: 100%;
+}
+
+
+.row2{
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.text{
+	width: 100%;
+	background-color: white;
+	padding-left: 16px;
+}
+
+.Data{
+	width: 31%;
+}
+
+.Data img{
+	width: 100%;
+}
+.business{
+  margin-left: 32px;
+	width: 31%;
+}
+
+.business img{
+	width: 100%;
+}
+
+
+.Marketing{
+  margin-left: 32px;
+	width: 31%;
+}
+
+.Marketing img{
+	width: 100%;
+}
+
+.thirdpart h1{
+  text-align: center;
+  padding:32px;
+}
+
+/*fourth-part*/
+.left2 img{
+  padding:0px;
+  width: 100%
+}
+
+.left2{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.fourthpart h1{
+  text-align: center;
+  padding: 32px;
+  align-items: center;
+}
+
+.Fisma {
+  display: flex;
+}
+
+.Fisma img{
+	width: 100%;
+}
+
+.Now-and-then{
+  display: flex;
+}
+
+.Now-and-then img{
+	width: 100%;
+}
+
+.total{
+  display: flex;
+}
+
+.right2{
+  width: 40%;
+  padding-left: 24px;
+	padding-top: 16px;
+}
+
+footer{
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 50px;
+	padding-right: 24px;
+}
+
+footer span{
+  float: right;
+	margin-left: 16px;
+}
+
+/*mobile device*/
+
+@media only screen and (max-width: 750px) {
+  .icons {
+    display: inline-block;
+  }
+
+  .icons img {
+    margin: auto 2rem;
+	}
+
+	nav{
+			display: none;
+		}
+
+	.logo{
+		display: none;
+	}
+
+	.banner{
+		flex-direction: column;
+		margin:auto;
+	}
+
+	.banner img{
+		width: 100%;
+	}
+
+	.orientation,
+	.campus,
+	.guest {
+		display: flex;
+		flex-direction: column;
+		margin:auto;
+		text-align: center;
+	}
+
+	.img1{
+		width: 80%;
+		text-align: center;
+		margin:auto;
+	}
+
+	.left1{
+		display: none;
+	}
+	.right1{
+		width: 100%;
+	}
+
+
+	.right2{
+		display: none;
+	}
+  .left2{
+		width: 100%;
+	}
+
+	.text1{
+		display: none;
+	}
+
+	.row1,
+	.row2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding:0;
+		margin:0;
+	}
+
+	.computer-art,
+	.Design,
+	.Data,
+	.business,
+	.Marketing{
+		margin:0;
+	}
+
+	.row2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.img2{
+		display: none;
+	}
+	.left2 h3,p{
+		display: none;
+	}
+
+	.bannertext{
+		width: 100%;
+	}
+
+	button{
+		width: 80%;
+		margin-bottom:32px;
+		padding:8px;
+		background-color: grey;
+	}
+
+
+  }
